@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertPOSystem", "ConcertPOSystem\ConcertPOSystem.csproj", "{99CCE099-9DB0-4AA7-A2B9-A50C0B876852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{05A1B887-7121-4AF0-AA91-5BEF3584F009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{54D63CB7-0301-4CE7-A6EE-66354DB3F7CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99CCE099-9DB0-4AA7-A2B9-A50C0B876852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CCE099-9DB0-4AA7-A2B9-A50C0B876852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CCE099-9DB0-4AA7-A2B9-A50C0B876852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CCE099-9DB0-4AA7-A2B9-A50C0B876852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A1B887-7121-4AF0-AA91-5BEF3584F009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A1B887-7121-4AF0-AA91-5BEF3584F009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A1B887-7121-4AF0-AA91-5BEF3584F009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A1B887-7121-4AF0-AA91-5BEF3584F009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D63CB7-0301-4CE7-A6EE-66354DB3F7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D63CB7-0301-4CE7-A6EE-66354DB3F7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D63CB7-0301-4CE7-A6EE-66354DB3F7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D63CB7-0301-4CE7-A6EE-66354DB3F7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
