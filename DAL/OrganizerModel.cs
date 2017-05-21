@@ -10,8 +10,8 @@ namespace DataAccess.Models
     {
         public int ID { get; set; }
         public int Login { get; set; }
-        public string OrganizerName { get; set; }
-        public virtual ICollection<ConcertModel> Concerts { get; set; }
+        public int OrganizerName { get; set; }
+        public List<ConcertModel> Concerts { get; set; }
         
     }
 }

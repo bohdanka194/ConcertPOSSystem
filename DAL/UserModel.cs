@@ -12,6 +12,6 @@ namespace DataAccess.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Login { get; set; }
-        public virtual ICollection<TicketModel> Tickets{ get; set; }
+        public List<TicketModel> Tickets{ get; set; }
     }
 }
