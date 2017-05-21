@@ -1,0 +1,10 @@
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\bin\Debug\BL.dll.config
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\bin\Debug\BL.dll
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\bin\Debug\BL.pdb
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\bin\Debug\EntityFramework.dll
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\bin\Debug\EntityFramework.xml
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\obj\Debug\BL.dll
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\BL\obj\Debug\BL.pdb

@@ -1,0 +1,5 @@
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\ConcertPOSSystem.Database\bin\Debug\ConcertPOSSystem.Database.dacpac
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\ConcertPOSSystem.Database\bin\Debug\ConcertPOSSystem.Database.dll
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\ConcertPOSSystem.Database\bin\Debug\ConcertPOSSystem.Database.pdb
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\ConcertPOSSystem.Database\obj\Debug\ConcertPOSSystem.Database.dll
+C:\Users\bohda\OneDrive\Документы\Visual Studio 2015\Projects\ConcertPOSystem\ConcertPOSSystem.Database\obj\Debug\ConcertPOSSystem.Database.pdb

@@ -23,6 +23,7 @@ namespace ConcertPOSystem
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ConcertPOSystem.ViewModel.ConcertViewModel();
         }
     }
 }
