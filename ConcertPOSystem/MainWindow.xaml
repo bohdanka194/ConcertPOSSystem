@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <ListBox ItemsSource="{Binding Concerts }">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="0" ItemsSource="{Binding Concerts }">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -18,5 +22,11 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <StackPanel Grid.Column="1" Margin="10,20,10,0">
+            <TextBox></TextBox>
+            <TextBox></TextBox>
+            <TextBox></TextBox>
+            <Button Content ="Add baton"/>
+        </StackPanel>
     </Grid>
 </Window>

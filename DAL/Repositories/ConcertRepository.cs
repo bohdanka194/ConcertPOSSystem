@@ -14,5 +14,10 @@ namespace DAL.Repositories
         {
             context = context1;
         }
+        public void Add(Concert toAdd)
+        {
+            context.Concert.Add(toAdd);
+            context.SaveChanges();
+        }
     }
 }
