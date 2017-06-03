@@ -1,7 +1,13 @@
-﻿CREATE DATABASE ConcertSystemDB;
+﻿--CREATE DATABASE ConcertSystemDB;
+
+-- missing statement
+-- use ConcertSystemDB;
+-- all the tables will be generated in default database
+
 
 CREATE TABLE [dbo].[Place]
 (
+    --name should be Id
 	[ID]  UNIQUEIDENTIFIER  NOT NULL DEFAULT (newid()),
 	[Name] NVARCHAR(50) NOT NULL,
 	[City] NVARCHAR(30) NOT NULL,

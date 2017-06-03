@@ -1,5 +1,6 @@
 namespace DAL
 {
+    // all usings outside of namespace!
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -15,6 +16,8 @@ namespace DAL
             Ticket = new HashSet<Ticket>();
         }
 
+        //name should be Id
+        // and in other cases too
         public Guid ID { get; set; }
 
         public Guid OrganizerID { get; set; }
