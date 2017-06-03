@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
 using System.Collections.ObjectModel;
 
+// remove unused usings
+
 namespace ConcertPOSystem.ViewModel
 {
     public class ConcertViewModel : INotifyPropertyChanged
@@ -37,6 +39,7 @@ namespace ConcertPOSystem.ViewModel
         {
             get
             {
+                // whats going on here?
                 return command ?? (command = new RelayCommand(obj =>
 {
 
@@ -45,7 +48,7 @@ namespace ConcertPOSystem.ViewModel
         }
         private void Add()
         {
-
+            // ?
         }
 
         public string OrgName

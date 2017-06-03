@@ -28,3 +28,12 @@ VALUES
 ('4F8F4269-22FA-437D-A50C-2414A5160F03', 120, 3,3 ),
 ('4F8F4269-22FA-437D-A50C-2414A5160F03', 120, 3,4 ),
 ('4F8F4269-22FA-437D-A50C-2414A5160F03', 150, 1,1)
+
+-- bad insert
+
+--Msg 547, Level 16, State 0, Line 19
+--The INSERT statement conflicted with the FOREIGN KEY constraint "FK_tblConcert_Organizer". The conflict occurred in database "ConcertSystemDB", table "dbo.Organizer", column 'ID'.
+--Msg 547, Level 16, State 0, Line 23
+--The INSERT statement conflicted with the FOREIGN KEY constraint "FK_tblTicket_Concert". The conflict occurred in database "ConcertSystemDB", table "dbo.Concert", column 'ID'.
+--The statement has been terminated.
+--The statement has been terminated.

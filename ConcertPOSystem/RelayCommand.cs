@@ -17,6 +17,7 @@ namespace ConcertPOSystem
             remove { CommandManager.RequerySuggested -= value; }
         }
 
+        // bad approach (using object as parameter) -> better way is to declare generic class RelayCommand<T>
         public RelayCommand(Action<object> execute, Func<object, bool> canExecute = null)
         {
             _execute = execute;
@@ -30,6 +31,8 @@ namespace ConcertPOSystem
 
         public void Execute(object parameter)
         {
+            // better way is to call it in the way _execute.Invoke(parameter);
+            // so as to other could understand u`re invoking a delegate
             _execute(parameter);
         }
     }
